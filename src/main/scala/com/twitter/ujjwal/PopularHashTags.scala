@@ -7,7 +7,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 object PopularHashTags {
   def getPopularHashTags(ssc : StreamingContext) {
 
-    val CHECKPOINT_DESTINATION = "/home/manisha/IdeaProjects/Twitter-Analytics(Spark)/src/main/resource/PopularHashtags/"
+    val CHECKPOINT_DESTINATION = "XXXXXXXXXXXXXXXXXXXXXXX"
 //    val config: Config = ConfigFactory.load("TwitterProject.conf")
     // Create a DStream from Twitter using our streaming context
     val tweets = TwitterUtils.createStream(ssc, None)

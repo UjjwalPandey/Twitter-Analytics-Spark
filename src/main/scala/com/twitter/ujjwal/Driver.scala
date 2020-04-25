@@ -6,7 +6,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 import scala.io.Source
 
 object Driver {
-  val TWITTER_CREDENTIALS_PATH = "/home/manisha/IdeaProjects/Twitter-Analytics(Spark)/src/main/resource/twitterTokens.txt"
+  val TWITTER_CREDENTIALS_PATH = "XXXXXXXX"
 
   def setupLogging(): Unit = {
     val rootLogger = Logger.getRootLogger
